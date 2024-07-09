@@ -4,6 +4,12 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 
+/* 
+*Controllers are meant to handle the logic of your application. They are used to handle user requests and return appropriate responses.
+*The PageController class is a controller class that extends the base controller class.
+*Each method in the PageController class corresponds to a route defined in the routes/web.php file.
+*when a request is made to a route, the corresponding method in the controller class is called to handle the request.(the method returns a response that is sent back to the user)
+*/
 
 class PageController extends Controller
 {
@@ -81,10 +87,7 @@ class PageController extends Controller
             return "Invalid marks";
         }
     }
+
+    
+    
 }
-/* 
-Controllers are meant to handle the logic of your application. They are used to handle user requests and return appropriate responses.
-The PageController class is a controller class that extends the base controller class.
-Each method in the PageController class corresponds to a route defined in the routes/web.php file.
-when a request is made to a route, the corresponding method in the controller class is called to handle the request.(the method returns a response that is sent back to the user)
-*/
