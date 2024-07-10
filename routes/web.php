@@ -36,6 +36,6 @@ Route::get('/testpage', function(){
 
 
 
-Route::get("/welcomeview", function () {
+Route::get("/created", function () {
     return view('created');
 });
